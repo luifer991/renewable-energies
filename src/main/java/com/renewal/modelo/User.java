@@ -1,8 +1,5 @@
 package com.renewal.modelo;
 
-/**
- * 
- */
 public class User {
     
     private String userId;
