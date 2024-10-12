@@ -2,10 +2,7 @@ package com.renewal.modelo;
 
 import java.util.*;
 
-/**
- *
- */
-public class ProductionPlant extends RenewbableEnergies {
+public class ProductionPlant {
     
     private RenewbableEnergies energy;
     private String location;
@@ -17,6 +14,7 @@ public class ProductionPlant extends RenewbableEnergies {
     
     public double prodution () {
         // TODO implement here
+        // produccion de energia = capacidad instalada * horas de operacion * factor de capacidad
         return 0.0d;
     }
     

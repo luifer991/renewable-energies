@@ -8,9 +8,24 @@ public class BioMassEnergy extends RenewbableEnergies {
     public BioMassEnergy () {
     }
     
-    public BioMassEnergy ( double energyFactor, String massType ) {
+    public BioMassEnergy ( String sourceName, double energyFactor, String massType ) {
+        super( sourceName );  // Llamada al constructor de la superclase
         this.energyFactor = energyFactor;
         this.massType = massType;
+    }
+    
+    @Override
+    public double capacityNominalProduction () {
+        return 0.0d;
+    }
+    
+    @Override
+    public String getSourceName () {
+        return super.getSourceName();
+    }
+    @Override
+    public void setSourceName ( String sourceName ) {
+        super.setSourceName( sourceName );
     }
     
     public double getEnergyFactor () {

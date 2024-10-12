@@ -10,8 +10,23 @@ public class SolarEnergy extends RenewbableEnergies {
     public SolarEnergy () {
     }
     
-    public SolarEnergy ( double luminescenceFactor ) {
+    public SolarEnergy ( String sourceName, double luminescenceFactor ) {
+        super(sourceName);
         this.luminescenceFactor = luminescenceFactor;
+    }
+    @Override
+    public double capacityNominalProduction () {
+        return 0.0d;
+    }
+    
+    @Override
+    public String getSourceName () {
+        return super.getSourceName();
+    }
+    
+    @Override
+    public void setSourceName ( String sourceName ) {
+        super.setSourceName( sourceName );
     }
     
     public double getLuminescenceFactor () {

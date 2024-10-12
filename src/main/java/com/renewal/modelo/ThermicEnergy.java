@@ -10,8 +10,24 @@ public class ThermicEnergy extends RenewbableEnergies {
     public ThermicEnergy () {
     }
     
-    public ThermicEnergy ( String energySource ) {
+    public ThermicEnergy ( String souceName, String energySource ) {
+        super(souceName);
         this.energySource = energySource;
+    }
+    
+    @Override
+    public double capacityNominalProduction () {
+        return 0.0d;
+    }
+    
+    @Override
+    public String getSourceName () {
+        return super.getSourceName();
+    }
+    
+    @Override
+    public void setSourceName ( String sourceName ) {
+        super.setSourceName( sourceName );
     }
     
     public String getEnergySource () {

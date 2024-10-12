@@ -1,8 +1,5 @@
 package com.renewal.modelo;
 
-/**
- *
- */
 public class RenewbableEnergies {
     
     public String sourceName;

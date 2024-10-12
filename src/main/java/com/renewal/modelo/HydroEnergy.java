@@ -12,10 +12,25 @@ public class HydroEnergy extends RenewbableEnergies {
     public HydroEnergy () {
     }
     
-    public HydroEnergy ( double energyFactor, int numberOfTurbines, double turbineCapacity ) {
+    public HydroEnergy (
+            String sourceName, double energyFactor, int numberOfTurbines, double turbineCapacity ) {
+        super( sourceName );
         this.energyFactor = energyFactor;
         this.numberOfTurbines = numberOfTurbines;
         this.turbineCapacity = turbineCapacity;
+    }
+    
+    @Override
+    public double capacityNominalProduction () {
+        return energyFactor * numberOfTurbines * turbineCapacity;
+    }
+    @Override
+    public String getSourceName () {
+        return super.getSourceName();
+    }
+    @Override
+    public void setSourceName ( String sourceName ) {
+        super.setSourceName( sourceName );
     }
     
     public double getEnergyFactor () {
