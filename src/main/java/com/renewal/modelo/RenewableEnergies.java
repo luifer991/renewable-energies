@@ -1,13 +1,13 @@
 package com.renewal.modelo;
 
-public class RenewbableEnergies {
+public class RenewableEnergies {
     
     public String sourceName;
     
-    public RenewbableEnergies () {
+    public RenewableEnergies () {
     }
     
-    public RenewbableEnergies ( String sourceName ) {
+    public RenewableEnergies ( String sourceName ) {
         this.sourceName = sourceName;
     }
     

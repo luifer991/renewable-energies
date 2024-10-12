@@ -1,6 +1,6 @@
 package com.renewal.modelo;
 
-public class BioMassEnergy extends RenewbableEnergies {
+public class BioMassEnergy extends RenewableEnergies {
     
     private double energyFactor;
     private String massType;

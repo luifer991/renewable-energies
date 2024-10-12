@@ -1,6 +1,6 @@
 package com.renewal.modelo;
 
-public class WindEnergy extends RenewbableEnergies {
+public class WindEnergy extends RenewableEnergies {
     
     private double rotorCapacity;
     private int rotorQuantity;

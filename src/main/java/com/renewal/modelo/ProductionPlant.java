@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ProductionPlant {
     
-    private RenewbableEnergies energy;
+    private RenewableEnergies energy;
     private String location;
     private int availabilityTime;
     private Date year;

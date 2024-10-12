@@ -3,7 +3,7 @@ package com.renewal.modelo;
 /**
  *
  */
-public class ThermicEnergy extends RenewbableEnergies {
+public class ThermicEnergy extends RenewableEnergies {
     
     private String energySource;
     

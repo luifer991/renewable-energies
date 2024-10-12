@@ -3,7 +3,7 @@ package com.renewal.modelo;
 /**
  *
  */
-public class SolarEnergy extends RenewbableEnergies {
+public class SolarEnergy extends RenewableEnergies {
     
     private double luminescenceFactor;
     

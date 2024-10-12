@@ -3,7 +3,7 @@ package com.renewal.modelo;
 /**
  *
  */
-public class GeothermalEnergy extends RenewbableEnergies {
+public class GeothermalEnergy extends RenewableEnergies {
     
     private double geothermalFactor;
     

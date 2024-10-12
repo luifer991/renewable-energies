@@ -3,7 +3,7 @@ package com.renewal.modelo;
 /**
  *
  */
-public class HydroEnergy extends RenewbableEnergies {
+public class HydroEnergy extends RenewableEnergies {
     
     private double energyFactor;
     private int numberOfTurbines;
